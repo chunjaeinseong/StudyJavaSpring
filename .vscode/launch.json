@@ -1,0 +1,15 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-ChunjaefaqApplication<chunjaefaq>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.chunjae.chunjaefaq.ChunjaefaqApplication",
+            "projectName": "chunjaefaq",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+            
+        }
+    ]
+}
