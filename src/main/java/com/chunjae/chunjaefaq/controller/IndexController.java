@@ -1,6 +1,8 @@
 package com.chunjae.chunjaefaq.controller;
 import java.util.HashMap;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 
@@ -12,7 +14,9 @@ public class IndexController {
     } 
 
     @GetMapping("/get")
-    public String Get() {
+    public String Get(HttpServletRequest request) {
+        request.setAttribute("intdata", 100);
+		request.setAttribute("stringdata", "string");
         return "gettest";
     } 
 }

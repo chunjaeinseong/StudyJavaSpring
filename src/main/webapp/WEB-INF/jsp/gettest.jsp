@@ -8,5 +8,8 @@
 </head>
 <body>
     <h1>get test</h1>
+    <h1>test1</h1>
+	<h3>intdata : ${intdata }</h3>
+	<h3>stringdata : ${stringdata}</h3>
 </body>
 </html>
